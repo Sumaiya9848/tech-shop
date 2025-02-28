@@ -171,7 +171,7 @@ button{
 }
 .products hr{
     width: 280px;
-    color: rgb(38, 35, 35);
+    border-color: gray;
 }
 .productbox{
     gap: 10px;
@@ -207,8 +207,7 @@ button{
 
 }
 .image{
-    background-color: rgb(45, 45, 45);
-    height: 150px;
+    padding-left: 60px;
 }
 .card10{
     background-color: black;
