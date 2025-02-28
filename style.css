@@ -223,10 +223,10 @@ button{
     font-size: 16px;
     justify-content: space-between;
 }
-.datas{
+.content2{
     width: 300px;
 }
-.datas h1{
+.content2 h1{
     color: lightgray;
 }
 .containers h1{
