@@ -47,6 +47,9 @@ button{
 .cart2{
     color: white;
 }
+.cart2 hr{
+    border-color: gray;
+}
 .quantity{
     cursor: pointer;
     margin-left: 50px;
