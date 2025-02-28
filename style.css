@@ -64,23 +64,25 @@ body{
 .box{
     transform: translate(-265px,15px);
     visibility: hidden;
-    background-color: black;
+    background-color: #1a1a1a;
     align-items: center;
     border: 1px solid white;
-    width: 280px;
-    height: 190px;
+    width: 300px;
+    height: 200px;
 }
 .usericon:hover .box{
     visibility: visible;
     opacity: 1;
 }
 .box button{
-    height: 37px;
-    width: 142px;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
     font-size: 15px;
-    background-color: black;
+    background-color: #1a1a1a;
     color: white;
-    border: solid white;
+    border: 1px solid white;
 }
 .boxcontent{
     transform: translate(20px,0);
