@@ -174,7 +174,10 @@ button{
     text-align: left;
     padding-left: 10px;
 }
-
+.products hr{
+    width: 280px;
+    color: rgb(38, 35, 35);
+}
 .productbox{
     gap: 10px;
 }
@@ -247,7 +250,7 @@ button{
     align-items: center;
     color: lightgray;
 }
-.social-icons{
+.social-icon{
     color: lightgray;
     cursor: pointer;
     display: flex;
