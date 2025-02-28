@@ -1,23 +1,21 @@
 body{
     overflow-x: hidden;
     background-color: black;
-    color: white;
+    color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 .header{
-    width: auto;
-    height: 50px;
-    border: 2px solid black;
+    width: 100%;
+    height: 70px;
+    border: 2px solid #1a1a1a;
     display: flex;
     align-items: center;
-    gap: 500px;
-    color: white;
+    gap: 300px;
+    color: lightgray;
     background-color: #1a1a1a;
-    justify-content: space-between;
     position: sticky;
-    padding: 16px;
 }
 .header h2{
     transform: translate(50px,0);
@@ -29,24 +27,24 @@ body{
 .searchicon i{
     height: 22px;
     width: 22px;
-    border: 0.1px solid black;
+    border: 0.1px solid #1a1a1a;
 }
 .carticon i{
     height: 22px;
     width: 22px;
-    border: 0.1px solid black;
+    border: 0.1px solid #1a1a1a;
 }
 .usericon i{
     height: 22px;
     width: 22px;
-    border: 0.1px solid black;
+    border: 0.1px solid #1a1a1a;
 }
 .search{
     transform: translate(-40px,30px);
     visibility: hidden;
-    background-color: black;
+    background-color: #1a1a1a;
     color: white;
-    border: solid white;
+    border: 2px solid white;
 }
 .searchicon:hover .search{
     visibility: visible;
@@ -55,9 +53,9 @@ body{
 .cart{
     transform: translate(-35px,30px);
     visibility: hidden;
-    background-color: black;
+    background-color: #1a1a1a;
     color: white;
-    border: solid white;
+    border: 2px solid white;
 }
 .carticon:hover .cart{
     visibility: visible;
