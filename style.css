@@ -24,21 +24,22 @@ body{
 .social-icons{
     display: flex;
     color: white;
+    position: relative;
     transform: translate(440px,95px);
 }
 .searchicon i{
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
     border: 0.1px solid #1a1a1a;
 }
 .carticon i{
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
     border: 0.1px solid #1a1a1a;
 }
 .usericon i{
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
     border: 0.1px solid #1a1a1a;
 }
 .search{
