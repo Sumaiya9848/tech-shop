@@ -220,16 +220,21 @@ button{
     color: gray;
     width: 100%;
     display: flex;
-    font-size: 16px;
+    font-size: 17px;
     justify-content: space-between;
+
 }
 .content2{
-    width: 300px;
+    width: 400px;
+    margin-left: 10px;
 }
-.content2 h1{
+.content2 h2{
     color: lightgray;
 }
-.containers h1{
+.containers{
+    margin-right: 70px;
+}
+.containers h2{
     color: lightgray;
 }
 .email{
