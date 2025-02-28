@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    width: auto;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    color: white;
+    background-color: black;
+}
+.header h2{
+    transform: translate(50px,0);
+}
+.social-icons{
+    display: flex;
+    transform: translate(440px,95px);
+}
+.searchicon i{
+    height: 22px;
+    width: 22px;
+    border: 0.1px solid black;
+}
+.carticon i{
+    height: 22px;
+    width: 22px;
+    border: 0.1px solid black;
+}
+.usericon i{
+    height: 22px;
+    width: 22px;
+    border: 0.1px solid black;
+}
+.search{
+    transform: translate(-40px,30px);
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+.searchicon:hover .search{
+    visibility: visible;
+    opacity: 1;
+}
+.cart{
+    transform: translate(-35px,30px);
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+.carticon:hover .cart{
+    visibility: visible;
+    opacity: 1;
+}
+.box{
+    transform: translate(-265px,15px);
+    visibility: hidden;
+    background-color: black;
+    align-items: center;
+    border: 1px solid white;
+    width: 280px;
+    height: 190px;
+}
+.usericon:hover .box{
+    visibility: visible;
+    opacity: 1;
+}
+.box button{
+    height: 37px;
+    width: 142px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+.boxcontent{
+    transform: translate(20px,0);
+    color: white;
+}
+.boxcontent hr{
+    width: 230px;
+    transform: translate(-20px,0);
+    color: white;
+}
+.container{
+    height: 700px;
+    width: 1247px;
+    border: 1px solid;
+    margin-bottom: 2px;
+    background-color: black;
+}
+#signup{
+    height: 700px;
+    width: 300px;
+    border: 1px solid;
+}

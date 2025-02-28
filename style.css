@@ -1,0 +1,285 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: auto;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    color: white;
+    background-color: black;
+}
+.header h2{
+    transform: translate(50px,0);
+}
+.social-icons{
+    display: flex;
+    transform: translate(440px,95px);
+}
+.searchicon i{
+    height: 22px;
+    width: 22px;
+    border: 0.1px solid black;
+}
+.carticon i{
+    height: 22px;
+    width: 22px;
+    border: 0.1px solid black;
+}
+.usericon i{
+    height: 22px;
+    width: 22px;
+    border: 0.1px solid black;
+}
+.search{
+    transform: translate(-40px,30px);
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+.searchicon:hover .search{
+    visibility: visible;
+    opacity: 1;
+}
+.cart{
+    transform: translate(-35px,30px);
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+.carticon:hover .cart{
+    visibility: visible;
+    opacity: 1;
+}
+.box{
+    transform: translate(-265px,15px);
+    visibility: hidden;
+    background-color: black;
+    align-items: center;
+    border: 1px solid white;
+    width: 280px;
+    height: 190px;
+}
+.usericon:hover .box{
+    visibility: visible;
+    opacity: 1;
+}
+.box button{
+    height: 37px;
+    width: 142px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+.boxcontent{
+    transform: translate(20px,0);
+    color: white;
+}
+.boxcontent hr{
+    width: 230px;
+    transform: translate(-20px,0);
+    color: white;
+}
+.container{
+    height: 700px;
+    width: 1247px;
+    border: 1px solid;
+    margin-bottom: 2px;
+    background-color: black;
+}
+#signup{
+    height: 700px;
+    width: 300px;
+    border: 1px solid;
+}
+/*
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    display: flex;
+    background-color: #1a1a1a;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}*/
+main{
+    background-color: #1a1a1a;
+}
+section{
+    background-color: #1a1a1a;
+}
+/*
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    color: white;
+
+}
+.icons a{
+    color: white;
+}*/
+main{
+    padding: 16px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.title{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 100px;
+}
+.Shop-button{
+    border: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.title2{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 100px;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+}
+.button1{
+    color: gray;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 2px;
+    padding: 6px 13px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 80px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: large;
+}
+
+.products{
+    color: lightgray;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+.products p{
+    color: gray;
+}
+.products{
+    height: 380px;
+    width: 300px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.productbox{
+    gap: 10px;
+}
+.Browse{
+    padding-top: 90px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+}
+.products img{
+    height: 150px;
+    width: 150px;
+    
+}
+.data h3{
+    color: lightgray;
+}
+.data p{
+    color: gray;
+}
+.services i{
+    display: flex;
+    position: relative;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services i{
+    color: red;
+
+}
+.image{
+    background-color: rgb(45, 45, 45);
+    height: 150px;
+}
+.card10{
+    background-color: black;
+    color: gray;
+    width: 100%;
+    display: flex;
+}
+.datas{
+    width: 300px;
+}
+.datas h1{
+    color: lightgray;
+}
+.containers h1{
+    color: lightgray;
+}
+.email{
+    border: 1px solid gray;
+    background-color: black;
+    padding: 10px;
+    padding-right: 100px;
+}
+.Sub-button{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    gap: 60%;
+    align-items: center;
+    color: lightgray;
+}
+.social-icons{
+    color: lightgray;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
