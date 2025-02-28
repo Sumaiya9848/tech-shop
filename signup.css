@@ -10,12 +10,13 @@ body{
     background-color: #323232;
     padding: 30px;
 }
+/*
 .close{
     color: white;
     text-decoration: none;
     margin-left: 300px;
     
-}
+}*/
 .model-content{
     color: lightgray;
 }
@@ -42,12 +43,7 @@ input{
     color: white;
     cursor: pointer;
     width: 100%;
-    margin: 10px 0;
-    
-}
-
-#signup:target{
-    display: flex;
+    margin: 10px 0;   
 }
 button{
     border: none;
@@ -72,7 +68,6 @@ span::before, span::after{
     border-bottom: 1px solid gray;
     margin: auto;
 }
-
 ::placeholder{
     color: lightgray;
 }

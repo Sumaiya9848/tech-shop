@@ -79,11 +79,11 @@ button{
     gap: 180px;
     font-size: 17px;
 }
-.summary-itemtotal-price{
+.summary-item-total-price{
     display: flex;
     gap: 120px;
 }
-.summary-itemtotal-price span{
+.summary-item-total-price span{
     font-size: 22px;
     color: white;
 }
