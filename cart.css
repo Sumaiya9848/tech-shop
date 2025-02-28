@@ -42,7 +42,6 @@ button{
     border: none;
     border: 1px solid gray;
     cursor: pointer;
-
 }
 .cart2{
     color: white;
@@ -52,7 +51,7 @@ button{
 }
 .quantity{
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .check-button{
     cursor: pointer;
@@ -62,24 +61,28 @@ button{
     padding: 8px;
     width: 300px;
     margin: 10px 0;
+    font-size: 18px;
 }
 .summary-item{
     display: flex;
     font-size: 17px;
-    gap: 100px;
+    gap: 120px;
 }
 .summary-item1{
     display: flex;
-    gap: 135px;
+    gap: 150px;
     font-size: 17px;
 }
 .summary-item2{
     display: flex;
-    gap: 160px;
+    gap: 180px;
     font-size: 17px;
 }
 .summary-itemtotal-price{
     display: flex;
-    gap: 90px;
+    gap: 120px;
+}
+.summary-itemtotal-price span{
     font-size: 22px;
+    color: white;
 }
