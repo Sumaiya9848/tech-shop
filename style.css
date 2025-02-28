@@ -15,7 +15,7 @@ body{
     gap: 300px;
     color: lightgray;
     background-color: #1a1a1a;
-    position: sticky;
+    position: relative;
 }
 .header h2{
     transform: translate(50px,0);
@@ -95,13 +95,14 @@ body{
     transform: translate(-20px,0);
     color: white;
 }
+/*
 .container{
     height: 700px;
-    width: 1247px;
+    width: 124px;
     border: 1px solid;
     margin-bottom: 2px;
-    background-color: black;
-}
+    background-color: rgb(243, 34, 34);
+}*/
 main{
     background-color: #1a1a1a;
 }
@@ -220,9 +221,9 @@ button{
     width: 100%;
     display: flex;
     font-size: 16px;
+    justify-content: space-between;
 }
 .datas{
-    margin-right: 400px;
     width: 300px;
 }
 .datas h1{
