@@ -45,6 +45,12 @@ input{
     margin: 10px 0;
     
 }
+/*
+#signup{
+    height: 700px;
+    width: 300px;
+    border: 1px solid;
+}*/
 button{
     border: none;
     color: white;

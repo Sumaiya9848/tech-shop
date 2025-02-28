@@ -100,11 +100,6 @@ body{
     margin-bottom: 2px;
     background-color: black;
 }
-#signup{
-    height: 700px;
-    width: 300px;
-    border: 1px solid;
-}
 main{
     background-color: #1a1a1a;
 }
