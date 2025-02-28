@@ -14,7 +14,10 @@ body{
     align-items: center;
     gap: 500px;
     color: white;
-    background-color: black;
+    background-color: #1a1a1a;
+    justify-content: space-between;
+    position: sticky;
+    padding: 16px;
 }
 .header h2{
     transform: translate(50px,0);
@@ -102,44 +105,12 @@ body{
     width: 300px;
     border: 1px solid;
 }
-/*
-body{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-header{
-    position: sticky;
-    display: flex;
-    background-color: #1a1a1a;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-}*/
 main{
     background-color: #1a1a1a;
 }
 section{
     background-color: #1a1a1a;
 }
-/*
-.logo{
-    font-size: 20px;
-    font-weight: bold;
-}
-.icons{
-    display: flex;
-    gap: 30px;
-    cursor: pointer;
-    color: white;
-
-}
-.icons a{
-    color: white;
-}*/
 main{
     padding: 16px;
 }
