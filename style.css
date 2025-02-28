@@ -19,9 +19,11 @@ body{
 }
 .header h2{
     transform: translate(50px,0);
+    color: white;
 }
 .social-icons{
     display: flex;
+    color: white;
     transform: translate(440px,95px);
 }
 .searchicon i{
@@ -235,7 +237,7 @@ button{
     padding: 10px;
     padding-right: 100px;
 }
-.Subcribe-button{
+.Subscribe-button{
     padding: 10px;
     width: 100px;
     position: relative;
