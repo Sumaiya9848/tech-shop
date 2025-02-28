@@ -235,7 +235,8 @@ button{
 }
 .Sub-button{
     padding: 10px;
-    text-align: center;
+    width: 100px;
+    position: relative;
     font-size: 15px;
 }
 .footer{
