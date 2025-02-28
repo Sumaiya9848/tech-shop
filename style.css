@@ -187,6 +187,9 @@ button{
     width: 150px;
     
 }
+.data{
+    padding-left: 20px;
+}
 .data h3{
     color: lightgray;
 }
@@ -204,7 +207,7 @@ button{
 }
 .services i{
     color: red;
-
+    font-size: 40px
 }
 .image{
     padding-left: 60px;
